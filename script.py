@@ -12,7 +12,7 @@ Format = Alt+CTRL+F
 
 """ EXTENSIONS
 Ayu
-Code Runner --> read only terminal !! use 'run python file in terminal when using inputs'
+Code Runner --> read only terminal !! use 'run python file in terminal when using inputs'df
 Predawn Theme Kit
 Python
 
@@ -28,6 +28,8 @@ add \" around pythonpath variabele. Otherwise spaces in path causes error.
         "python": "\"$pythonPath\" -u $fullFileName"
     },
 
+old setting for using git bash
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 """
 
 
